@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>이세규 홈페이지</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" href="./lib/css/bootstrap.min.css" />
+    <script src="./js/main.js"></script>
+    <script src="./lib/js/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="page-holder">
+        <div class="navigation-holder">
+            <ul>
+                <li><a href="http://jnu.ac.kr">전남대학교</a></li>
+                <li><a href="http://eclass.jnu.ac.kr/User/">전남대 E-class</a></li>
+                <li><a href="https://portal.jnu.ac.kr/Common/Login/Login.aspx">전남대학교 포털</a></li>
+            </ul>
+
+            <div class="box">
+                <b class="txtBlue">Administrator Information</b></br>01022740450 책임자</br>
+            </div>
+
+        </div>
+        <div class="mainfield">
+            <div>
+                <h1>AutoSet</h1>
+            </div>
+
+            <div class="description padding30">
+                <div class="txtBlack">
+                    이곳은 로그인 공간입니다..</br>
+                    아래보이는 공간에 정보를 입력해주세요 </br>
+                    *************</br>
+                </div>
+
+                <div class = "textfield">
+                    <div class = "typing">
+                        아이디 : 
+                        <input type="text" id="user_id">
+                    </div>
+                    <div class = "typing">
+                        비밀번호 : 
+                        <input type="password" id="user_pass">
+                    </div>
+                    <input type="submit" value="로그인" onclick="login()" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
